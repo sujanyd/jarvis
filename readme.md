@@ -7,7 +7,6 @@
 [![PyQt6](https://img.shields.io/badge/GUI-PyQt6-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://www.qt.io/)
 [![Gemini 2.5 Live](https://img.shields.io/badge/AI-Gemini%202.5%20Live-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
 [![OpenRouter](https://img.shields.io/badge/Router-OpenRouter%20Hybrid-6466E9?style=for-the-badge&logo=openai&logoColor=white)](https://openrouter.ai/)
-[![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue?style=for-the-badge)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
 
@@ -146,8 +145,8 @@ Clone the repository and run the setup script:
 
 ```bash
 # Clone repository
-git clone https://github.com/FatihMakes/Mark-XXXIX-OR.git
-cd Mark-XXXIX-OR
+git clone https://github.com/sujanyd/jarvis.git
+cd jarvis
 
 # Automated installation
 python setup.py
@@ -189,21 +188,3 @@ python main.py
 - 💻 **Build a Project**: Say *"Create a Python Flask web app with a dark mode UI on my desktop."*
 - 🌐 **Browser Automation**: Say *"Find the top trending repositories on GitHub today"* or *"Search flights from NYC to Paris."*
 - ⚙️ **OS Settings**: Say *"Set system volume to 80%"* or *"Mute audio."*
-
----
-
-## 📄 License
-
-This project is licensed under the **[Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)**.  
-*Free for personal, educational, and non-commercial usage.*
-
----
-
-## 👨‍💻 Creator & Community
-
-Engineered by **FatihMakes** — building toward the real-world JARVIS.
-
-- 📺 **YouTube**: [@FatihMakes](https://www.youtube.com/@FatihMakes) — *Watch setup tutorials & demo videos*
-- 📸 **Instagram**: [@fatihmakes](https://www.instagram.com/fatihmakes)
-
-⭐ **Star this repository on GitHub to support the journey!**
