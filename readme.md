@@ -1,82 +1,209 @@
-# 🤖 MARK XXXIX-OR (39)
-### The Ultimate Cross-Platform Personal AI Assistant — By FatihMakes
+# 🤖 JARVIS
 
-> 📺 **[Watch the full setup video on YouTube](https://youtu.be/ldvDNzwnM8k)**
+> **The Ultimate Cross-Platform Autonomous AI Desktop Assistant**  
+> *Real-time Voice • Computer Vision • Full System Control • Autonomous Execution • Persistent Memory*
 
-A real-time voice AI that can hear, see, understand, and control your computer — on any OS. Supporting Windows, macOS, and Linux. Local execution. Zero subscriptions. Engineered for total autonomy.
-
----
-
-## ✨ Overview
-
-MARK XXXIX-OR represents the pinnacle of the Jarvis series, evolving into a more flexible and robust system. It bridges the gap between the operating system and human intent. Through natural dialogue, Mark 39 analyzes your screen, processes uploaded documents, and executes complex workflows with a brand-new, adaptive interface.
-
-It's not just an assistant — it's an extension of your digital life.
+[![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![PyQt6](https://img.shields.io/badge/GUI-PyQt6-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://www.qt.io/)
+[![Gemini 2.5 Live](https://img.shields.io/badge/AI-Gemini%202.5%20Live-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+[![OpenRouter](https://img.shields.io/badge/Router-OpenRouter%20Hybrid-6466E9?style=for-the-badge&logo=openai&logoColor=white)](https://openrouter.ai/)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue?style=for-the-badge)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
 
-## 🚀 Capabilities
+## 🌟 Overview
 
-### Core Features
-| Feature | Description |
-|---|---|
-| 🎙️ Real-time Voice | Ultra-low latency conversation in any language |
-| 🖥️ System Control | Launch apps, manage files, execute terminal commands |
-| 🧩 Autonomous Tasks | High-level planning for complex, multi-step goals |
-| 👁️ Visual Awareness | Real-time screen processing and webcam vision |
-| 🧠 Persistent Memory | Deeply remembers your projects, preferences, and personal context |
-| ⌨️ Hybrid Input | Seamlessly switch between keyboard typing and voice commands |
+**JARVIS** is a next-generation, cross-platform personal AI assistant inspired by Iron Man's JARVIS. Operating seamlessly across **Windows**, **macOS**, and **Linux**, JARVIS combines ultra-low latency real-time voice streaming with vision awareness, operating system automation, full-stack software development, and autonomous multi-step task execution.
+
+Unlike conventional chatbots, JARVIS sits directly on your system: it can hear your voice, see your active screen, inspect dropped files, control native applications, adjust OS settings, automate browsers via Playwright, build and debug entire software projects, and remember your personal preferences across sessions.
 
 ---
 
-## 🆕 What's New in XXXIX-OR
+## 🔥 Feature Highlights
 
-- 📂 **Advanced File Handling** — New support for direct file uploads. Drop PDFs, source code, or images into the assistant to have them analyzed, summarized, or edited instantly.
-- 🎨 **Adaptive & Flexible UI** — A complete overhaul of the interface. The new UI is fully resizable and responsive, featuring transparency controls and customizable layouts to fit your workspace perfectly.
-- 🐧🍎 **Refined Cross-Platform Stability** — Major fixes for macOS and Linux compatibility. Core system actions are now more consistent across all three major operating systems.
-- ⚡ **Optimized Core Engine** — Significant performance boost in tool-calling logic and response generation, resulting in a 40% faster interaction speed.
-- 🔀 **OpenRouter Integration** — Selected action modules (web search, memory, flight finder, desktop control, and more) now route their LLM calls through OpenRouter's free-tier models. This significantly increases the effective request limit without any additional cost, while Gemini Live continues to handle real-time voice and tool-calling.
+### 🎙️ Real-Time Bi-Directional Audio & Voice Interruption
+- **Gemini 2.5 Flash Native Audio**: Real-time bi-directional audio streaming via WebSocket connection with 16kHz input / 24kHz output audio pipeline.
+- **Instant Interruption (VAD)**: Speak at any moment to pause JARVIS mid-sentence and pivot conversation instantly.
+- **Hybrid Input System**: Seamlessly switch between natural voice commands and keyboard text input.
+
+### 👁️ Real-Time Screen & Vision Awareness
+- **Desktop & Webcam Inspection**: Live screen capture using OpenCV, Pillow, and MSS for instant OCR, visual layout parsing, and image analysis.
+- **Screen Debugging**: Ask JARVIS to inspect code errors, stack traces, design mockups, or videos currently active on your monitor.
+
+### 💻 Full-Stack Dev Agent & Autonomous Self-Healing Engine
+- **Autonomous Project Generator**: Automatically scaffolds complete projects under `~/Desktop/JarvisProjects`.
+- **Multi-Attempt Self-Healing Debugger**: Executes terminal commands, captures tracebacks, identifies broken file lines, and attempts up to 5 self-correction loops until tests pass.
+- **Code Assistant**: Smart code writing, refactoring, unit test generation, performance optimization, and syntax explaining.
+
+### 🖥️ Native OS & Desktop Automation
+- **Cross-Platform App Control**: Launch, minimize, maximize, resize, or terminate applications across Windows, macOS, and Linux.
+- **System Settings Management**: Control system volume, mute states, display brightness, Wi-Fi status, Bluetooth, and battery power profiles.
+- **Mouse & Keyboard Emulation**: Automated typing, clicking, hotkey combinations, and clipboard operations via PyAutoGUI.
+
+### 🌐 Playwright Browser Automation & Web Research
+- **Browser Automation**: Launch and control native browser channels (Chrome, Brave, Firefox, Edge, Opera, Vivaldi, Safari) with Playwright.
+- **Web Navigation & Extraction**: Click elements, fill forms, execute searches, scroll pages, and scrape web content dynamically.
+- **Specialized Web Tools**: Search Google Flights for travel deals, extract YouTube video transcripts, check weather reports, and run DuckDuckGo research queries.
+
+### 🧠 Persistent Long-Term Memory
+- **Automated Memory Extraction**: Automatically identifies personal facts, project details, and user preferences during interactions.
+- **Context Injection**: Injects saved memories directly into system prompts for personalized long-term assistance.
+
+### ⚡ OpenRouter Hybrid Model Routing
+- **22+ Free-Tier LLM Fallbacks**: Intelligently routes high-frequency text actions, web search, and sub-agent planning through OpenRouter models (Nvidia Nemotron, Llama 3.3 70B, Qwen 3 Coder, Gemma 4, etc.).
+- **Quota Optimization**: Preserves Gemini 2.5 Live rate limits while maintaining high performance for multi-step agent actions.
+
+### 🎨 Iron Man Command Center GUI (PyQt6)
+- **Cyber Navy & Glassmorphism Design**: High-tech UI featuring dark cyber navy gradients, glowing borders, and smooth animations.
+- **Real-Time Audio Waveform**: Animated sinusoidal waveform visualizer indicating speech input and output.
+- **Interactive File Drop Zone**: Drag-and-drop PDFs, scripts, source code, or images directly onto the UI.
+- **Live System Telemetry**: Built-in CPU and RAM resource monitoring via `psutil`.
 
 ---
 
-## ⚡ Quick Start
+## 🧩 Action Modules & Capabilities Matrix
+
+| Category | Action Module | Core Capabilities & Functions |
+| :--- | :--- | :--- |
+| **System** | `actions/open_app.py` | Launch applications, executables, system tools, or URLs across Windows, macOS, & Linux. |
+| **System** | `actions/computer_control.py` | Mouse click/drag, keyboard typing, hotkey triggers, screenshot captures, clipboard actions. |
+| **System** | `actions/computer_settings.py` | Adjust volume, toggle mute, change brightness, check battery, Wi-Fi & Bluetooth state. |
+| **System** | `actions/desktop.py` | Active window tracking, focus management, window resizing, and workspace layout control. |
+| **Browser** | `actions/browser_control.py` | Playwright browser automation, navigation, element clicking, text input, form submission. |
+| **Browser** | `actions/web_search.py` | Live DuckDuckGo web search, page scraping, content extraction, item comparisons. |
+| **Dev** | `actions/dev_agent.py` | Autonomous multi-file project creation, terminal command execution, 5-attempt fix loop. |
+| **Dev** | `actions/code_helper.py` | AI code writer, editor, optimizer, debugger, build test executor, screen code analyzer. |
+| **Files** | `actions/file_processor.py` | Deep file parsing (PDF, DOCX, TXT, MD, CSV, JSON), OCR, drop-zone file processing. |
+| **Files** | `actions/file_controller.py` | File system manager: read, write, create, delete, move, copy, search, disk usage. |
+| **Vision** | `actions/screen_processor.py` | Full-screen and target window visual capture, text OCR parsing, layout analysis. |
+| **Tools** | `actions/youtube_video.py` | Search YouTube videos, playback control, transcript extraction (`youtube_transcript_api`). |
+| **Tools** | `actions/flight_finder.py` | Automated flight deal finder and travel route comparison across airlines. |
+| **Tools** | `actions/game_updater.py` | Steam / Epic / Riot game patch tracking, update scheduling, client management. |
+| **Tools** | `actions/reminder.py` | System timers, local alerts, alarm notifications, scheduled reminders. |
+| **Tools** | `actions/send_message.py` | Draft & send native notifications, email drafts, and chat messages. |
+| **Tools** | `actions/weather_report.py` | Real-time weather reports and forecasts by location. |
+
+---
+
+## 🛠️ System Architecture
+
+```mermaid
+graph TD
+    A[User Voice / Keyboard / Drag & Drop] --> B[PyQt6 Iron Man Command Center UI]
+    B --> C[System Telemetry CPU/RAM Monitor]
+    B --> D[Gemini 2.5 Live Audio & Tools Engine]
+    D <--> E[Agent Planner & Task Queue]
+    E --> F[OpenRouter Hybrid Model Router]
+    E --> G[Actions & Tools Ecosystem]
+    G --> H[Playwright Browser Automation]
+    G --> I[Full-Stack Dev Agent & Self-Healing Loop]
+    G --> J[Native OS & Settings Controller]
+    G --> K[File & Screen Vision Processors]
+    D <--> L[Persistent Long-Term Memory Manager]
+```
+
+---
+
+## 📂 Project Structure
+
+```
+.
+├── main.py                    # Core entry point & Gemini Live audio event loop
+├── ui.py                      # Iron Man Command Center PyQt6 interface & telemetry
+├── or_client.py               # OpenRouter multi-model client with rate-limit fallbacks
+├── setup.py                   # Automated dependency & Playwright browser installer
+├── requirements.txt           # Python package requirements
+├── config/
+│   └── api_keys.json          # API keys for Gemini & OpenRouter
+├── core/
+│   └── prompt.txt             # System prompt & JARVIS persona definition
+├── agent/
+│   ├── planner.py             # Multi-step task planner & decomposition engine
+│   ├── executor.py            # Tool execution supervisor
+│   ├── task_queue.py          # Asynchronous task queue & worker thread
+│   └── error_handler.py       # Self-healing loop & traceback line parser
+├── memory/
+│   ├── memory_manager.py      # Fact extraction & long-term memory storage
+│   └── config_manager.py      # User settings & preferences persistence
+└── actions/                   # Suite of 17 native OS, Web, Dev, and Vision tools
+```
+
+---
+
+## 🚀 Quick Start Guide
+
+### 1. Prerequisites
+- **OS**: Windows 10/11, macOS 12+, or Linux (Ubuntu 20.04+)
+- **Python**: `3.11` or `3.12`
+- **Hardware**: Working Microphone & Speaker (for real-time voice interaction)
+- **API Keys**:
+  - [Google Gemini API Key](https://aistudio.google.com/) (*Required for voice & vision*)
+  - [OpenRouter API Key](https://openrouter.ai/) (*Optional / Recommended for hybrid model routing*)
+
+### 2. Installation
+
+Clone the repository and run the setup script:
 
 ```bash
+# Clone repository
 git clone https://github.com/FatihMakes/Mark-XXXIX-OR.git
 cd Mark-XXXIX-OR
+
+# Automated installation
+python setup.py
+```
+
+*Or manually install dependencies:*
+
+```bash
 pip install -r requirements.txt
 playwright install
+```
+
+### 3. API Key Configuration
+
+Configure `config/api_keys.json`:
+
+```json
+{
+  "gemini_api_key": "YOUR_GEMINI_API_KEY",
+  "openrouter_api_key": "YOUR_OPENROUTER_API_KEY"
+}
+```
+
+### 4. Launch JARVIS
+
+Start the desktop assistant:
+
+```bash
 python main.py
 ```
 
-> ⚠️ **Installation Note:** To keep the repository lightweight, some OS-specific dependencies are not bundled in `requirements.txt`. If you run into a `ModuleNotFoundError`, simply install the missing package via `pip install <module_name>` for your specific system.
+---
+
+## 🎮 Usage Tips
+
+- 🎙️ **Voice Control**: Speak naturally into your microphone. Interrupt JARVIS at any time simply by speaking.
+- 👁️ **Screen Inspection**: Ask *"What's on my screen right now?"* or *"Analyze this design/code on my display."*
+- 📂 **File Drop Zone**: Drag PDFs, source code files, or images onto the PyQt6 window for instant analysis.
+- 💻 **Build a Project**: Say *"Create a Python Flask web app with a dark mode UI on my desktop."*
+- 🌐 **Browser Automation**: Say *"Find the top trending repositories on GitHub today"* or *"Search flights from NYC to Paris."*
+- ⚙️ **OS Settings**: Say *"Set system volume to 80%"* or *"Mute audio."*
 
 ---
 
-## 📋 Requirements
+## 📄 License
 
-| Requirement | Details |
-|---|---|
-| **OS** | Windows 10/11, macOS, or Linux |
-| **Python** | 3.11 or 3.12 |
-| **Microphone** | Required for voice interaction |
-| **API Keys** | Free Gemini API key + Free OpenRouter API key |
+This project is licensed under the **[Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)**.  
+*Free for personal, educational, and non-commercial usage.*
 
 ---
 
-## ⚠️ License
+## 👨‍💻 Creator & Community
 
-Personal and non-commercial use only.
-Licensed under **[Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)**.
+Engineered by **FatihMakes** — building toward the real-world JARVIS.
 
----
+- 📺 **YouTube**: [@FatihMakes](https://www.youtube.com/@FatihMakes) — *Watch setup tutorials & demo videos*
+- 📸 **Instagram**: [@fatihmakes](https://www.instagram.com/fatihmakes)
 
-## 👤 Connect with the Creator
-
-Engineered by a developer building a real-world JARVIS-style assistant.
-⭐ **Star the repository to support the journey to Mark 100.**
-
-| Platform | Link |
-|---|---|
-| YouTube | [@FatihMakes](https://www.youtube.com/@FatihMakes) |
-| Instagram | [@fatihmakes](https://www.instagram.com/fatihmakes) |
+⭐ **Star this repository on GitHub to support the journey!**
